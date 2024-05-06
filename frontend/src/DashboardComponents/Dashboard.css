@@ -1,0 +1,52 @@
+footer {
+  bottom: 0;
+  background-color:#282c34;
+  padding: 2.5px;
+  text-align: center;
+
+  width: 100%;
+  position: fixed;
+}
+
+  
+  .feature{
+    background-image: url(https://images.pexels.com/photos/4968636/pexels-photo-4968636.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+  }
+  strong{
+    color: blue;
+  }
+  .feat
+  {
+    color:darkmagenta;
+    font-weight:bold;
+  }
+   h2{
+    color:maroon;
+    font-weight:bold;
+    text-decoration: underline;
+   }
+   .card-text
+   {
+    color:deeppink;
+   }
+   .card-title
+   {
+     color:firebrick;
+     font-weight: bold;
+     text-decoration: underline;
+   }
+   .title{
+    background-color:#61dafb;
+    color:hotpink;
+   }
+   .foot
+   {
+    color: azure;
+    font-weight: bold;
+    font-size: larger;
+   }

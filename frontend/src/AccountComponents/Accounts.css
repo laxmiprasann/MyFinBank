@@ -1,0 +1,206 @@
+.account-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    background-color: rgb(67, 196, 196);
+  }
+  
+  .account {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  .create-account-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  .accounts-by-type {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .select-account-type {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .account-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+  }
+  
+  .account {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  
+  .account h3 {
+    margin-top: 0;
+  }
+  
+  .account p {
+    margin-bottom: 5px;
+  }
+  .search-container {
+    margin-bottom: 2
+    0px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /* FixedDeposit.css */
+
+.fixed-deposit-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.accounts
+{
+  background-image: url(https://images.pexels.com/photos/7821685/pexels-photo-7821685.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  font-weight: bold;
+  color:indigo;
+}
+
+.form-container {
+  max-width: 600px; /* Adjust this value as needed */
+  margin:40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+/* Deposit Container */
+.deposit-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:deeppink;
+}
+
+
+
+/* Deposit Container Content */
+.deposit-container p {
+  margin: 5px 0;
+}
+
+.duration-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.loan-containers
+{
+  background-color:hotpink;
+}

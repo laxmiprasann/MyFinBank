@@ -1,0 +1,61 @@
+/* ChatRoom.css */
+
+.chat-container-fluid {
+    padding: 20px;
+  }
+  
+  .col-md-3 {
+    padding: 0 15px;
+  }
+  
+  .col-md-9 {
+    padding: 0 15px;
+  }
+  
+  .chatheading {
+    margin-bottom: 20px;
+  }
+  
+  .chatul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chatli {
+    background-color: #8ab6f9;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .inputchat {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #00246b;
+    border-radius: 5px;
+  }
+  
+  .chatbtn {
+    padding: 10px;
+    background-color: #00246b;
+    color: #cadcfc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chatbtn:hover {
+    background-color: #8ab6f9;
+    color: #00246b;
+  }
+  
+  .chat-room{
+    background-image: url(https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  font-weight: bold;
+  color:chocolate;
+  }
