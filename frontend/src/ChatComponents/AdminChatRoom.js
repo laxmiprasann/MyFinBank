@@ -46,7 +46,7 @@ const AdminChatRoom = () => {
                     'Content-Type': 'application/json',
                     authorization: localStorage.getItem('token'), // Send token in headers
                 },
-                body: JSON.stringify({ user: userProfile.email, message }), // Use userProfile.email as user
+                body: JSON.stringify({ user: userProfile.email,role:userProfile.Role, message }), // Use userProfile.email as user
             });
 
             // Clear the message input after sending
@@ -90,7 +90,7 @@ const AdminChatRoom = () => {
                         <ul className='chatul'>
                             {messages.map((message) => (
                                 <li className='chatli' key={message._id}>
-                                    <strong>{message.user}:</strong> {message.message}
+                                    <strong>{message.user},{message.role}:</strong> {message.message}
                                 </li>
                             ))}
                         </ul>

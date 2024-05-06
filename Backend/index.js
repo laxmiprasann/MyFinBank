@@ -63,9 +63,9 @@ app.get("/messages", authenticate, async (req, res) => { // Add authentication m
 
 app.post("/messages", authenticate,  async (req, res) => { // Add authentication and authorization middleware here
     try {
-        const { user, message } = req.body;
+        const { user,role, message } = req.body;
 
-        if (!user || !message) {
+        if (!user ||!role|| !message) {
             return res
                 .status(400)
                 .json({ error: "User and message are required" });
@@ -73,6 +73,7 @@ app.post("/messages", authenticate,  async (req, res) => { // Add authentication
 
         const chatMessage = new ChatMessage({
             user,
+            role,
             message,
         });
 
